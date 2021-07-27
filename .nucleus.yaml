@@ -2,3 +2,6 @@ steps:
     node-unit-tests:
         run:
             command: npm run test:unit
+
+core-deploy:
+  enabled: true
