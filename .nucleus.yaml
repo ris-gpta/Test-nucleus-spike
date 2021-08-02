@@ -9,5 +9,4 @@ steps:
             coverage: --coverage
 core-deploy:
     enabled: true
-    project-modules:
-        test-nucleus-spike: test-nucleus-spike.version
+    test-nucleus-spike: test-nucleus-spike.version
