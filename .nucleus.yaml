@@ -1,0 +1,12 @@
+steps:
+    node-unit-tests:
+        run:
+            command: npm run test:unit
+    node-pre-release-tests:
+        run:
+            command: npm run test:unit {coverage}
+        params:
+            coverage: --coverage
+core-deploy:
+    enabled: true
+    test-nucleus-spike: 0.0.2
