@@ -9,4 +9,4 @@ steps:
             coverage: --coverage
 core-deploy:
     enabled: true
-    test-nucleus-spike: test-nucleus-spike.version
+    test-nucleus-spike: 0.0.2
