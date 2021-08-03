@@ -10,3 +10,6 @@ steps:
 core-deploy:
     enabled: true
     test-nucleus-spike: 0.0.2
+notifications:
+    slack:
+        channel: nucleus-test
