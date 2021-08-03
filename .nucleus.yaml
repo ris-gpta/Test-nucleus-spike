@@ -9,4 +9,11 @@ steps:
             coverage: --coverage
 core-deploy:
     enabled: true
-    test-nucleus-spike: 0.0.2
+    project-modules:
+        test-nucleus-spike: 0.0.3
+    use-core-packager: true
+    auto-deploy: true
+    default-gus-work-item: W-9693834
+notifications:
+    slack:
+        channel: nucleus-test
