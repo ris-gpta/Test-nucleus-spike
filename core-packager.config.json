@@ -1,8 +1,8 @@
 {
-    "packageNamespace": "test-nucleus",
-    "mavenPackageNamespace": "test-nucleus",
-    "utamPackageNamespace": "test-nucleus",
-    "componentLocatorClassPrefix": "test-nucleus",
+    "packageNamespace": "org.testnucleus",
+    "mavenPackageNamespace": "sfdc.ui",
+    "utamPackageNamespace": "utam.testnucleus",
+    "componentLocatorClassPrefix": "TestNucleus",
     "artifactId": "test-nucleus",
     "artifactName": "test-nucleus",
     "version": "0.1.0-SNAPSHOT"
