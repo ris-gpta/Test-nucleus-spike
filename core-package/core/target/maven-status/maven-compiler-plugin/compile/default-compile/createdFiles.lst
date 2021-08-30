@@ -1,0 +1,3 @@
+org/testnucleus/configuration/PropertiesManager.class
+org/testnucleus/configuration/TestNucleusConfiguration.class
+org/testnucleus/configuration/TestNucleusComponentLocator.class

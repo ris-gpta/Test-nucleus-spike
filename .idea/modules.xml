@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/core-package/core/test-nucleus.iml" filepath="$PROJECT_DIR$/core-package/core/test-nucleus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core-package/test-nucleus-multi-module.iml" filepath="$PROJECT_DIR$/core-package/test-nucleus-multi-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/test-nucleus-spike.iml" filepath="$PROJECT_DIR$/.idea/test-nucleus-spike.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core-package/utam/test-nucleus-utam.iml" filepath="$PROJECT_DIR$/core-package/utam/test-nucleus-utam.iml" />
+    </modules>
+  </component>
+</project>
