@@ -14,6 +14,10 @@ core-deploy:
     use-core-packager: true
     auto-deploy: true
     default-gus-work-item: W-9693834
+display-name: Nucleus-Spike
+team-name: Omnistudio - Flex Cards
 notifications:
     slack:
         channel: nucleus-test
+    email:
+        address: rishabhgupta@salesforce.com
