@@ -3,5 +3,9 @@
         {
             "dir": "src/modules"
         }
+    ],
+    "expose": [
+        "nucleusspike/app",
+        "nucleusspike/greeting"
     ]
-}
+} 

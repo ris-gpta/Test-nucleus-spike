@@ -7,9 +7,9 @@
 // https://github.com/trailheadapps/lwc-recipes-oss
 
 import { createElement } from 'lwc';
-import MyApp from 'my/app';
+import NucleusspikeApp from 'nucleusspike/app';
 
-describe('my-app', () => {
+describe('nucleusspike-app', () => {
     afterEach(() => {
         // The jsdom instance is shared across test cases in a single file so reset the DOM
         while (document.body.firstChild) {
@@ -18,8 +18,8 @@ describe('my-app', () => {
     });
 
     it('contains a link to the LWC documentation with target set to _blank', () => {
-        const element = createElement('my-app', {
-            is: MyApp
+        const element = createElement('nucleusspike-app', {
+            is: NucleusspikeApp
         });
         document.body.appendChild(element);
 
@@ -30,8 +30,8 @@ describe('my-app', () => {
     });
 
     it('contains a link to the LWC documentation with https://', () => {
-        const element = createElement('my-app', {
-            is: MyApp
+        const element = createElement('nucleusspike-app', {
+            is: NucleusspikeApp
         });
         document.body.appendChild(element);
 
@@ -41,14 +41,16 @@ describe('my-app', () => {
         expect(linkEl.href).toMatch(/^https:/);
     });
 
-    it('contains one active custom element my-greeting', () => {
-        const element = createElement('my-app', {
-            is: MyApp
+    it('contains one active custom element nucleusspike-greeting', () => {
+        const element = createElement('nucleusspike-app', {
+            is: NucleusspikeApp
         });
         document.body.appendChild(element);
 
-        // Get array of my-greeting custom elements
-        const greetingEls = element.shadowRoot.querySelectorAll('my-greeting');
+        // Get array of nucleusspike-greeting custom elements
+        const greetingEls = element.shadowRoot.querySelectorAll(
+            'nucleusspike-greeting'
+        );
 
         expect(greetingEls.length).toBe(1);
     });
