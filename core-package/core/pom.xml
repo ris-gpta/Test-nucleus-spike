@@ -7,8 +7,8 @@
   <version>0.1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
   <properties>
-    <aura.version>1.3497</aura.version>
-    <lwc.version>2.3.7-236.9</lwc.version>
+    <aura.version>1.3507</aura.version>
+    <lwc.version>2.4.0-236.0</lwc.version>
     <spring.version>5.3.8</spring.version>
     <utam.framework.version>1.0-alpha-5.1</utam.framework.version>
     <compilation.primaryPackage>test-nucleus</compilation.primaryPackage>
