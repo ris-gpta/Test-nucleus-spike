@@ -12,8 +12,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <modules.directory>${project.basedir}/src/main/modules</modules.directory>
     <modules.package>test-nucleus</modules.package>
-    <aura.version>1.3497</aura.version>
-    <lwc.version>2.3.7-236.9</lwc.version>
+    <aura.version>1.3507</aura.version>
+    <lwc.version>2.4.0-236.0</lwc.version>
     <spring.version>5.3.8</spring.version>
     <components.package>test-nucleus-utam</components.package>
     <components.directory/>
